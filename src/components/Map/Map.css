@@ -1,0 +1,57 @@
+.Map {
+  background: white;
+}
+.Map_gridContainer {
+  margin: 0px 0px;
+}
+.Map_grid {
+  position: relative;
+  width: fit-content;
+  margin: auto;
+}
+.Map_grid_canvas {
+  border: 1px solid #c7c7c7;
+}
+
+.Canvas_store {
+  position: absolute;
+  font-size: 22px;
+  color: black;
+}
+
+.VehicleMap {
+  position: absolute;
+  transition: .1s;
+  border-radius: 999px;
+}
+.VehicleMap_item {
+  /* background-color: #0fa958; */
+  /* color: white; */
+  background-color: white;
+  font-weight: 600;
+  padding: 0 4px;
+  gap: 4px;
+  display: flex;
+  font-size: 16px;
+  min-width: 8px;
+  min-height: 8px;
+  border-radius: 999px;
+}
+.VehicleMap_item:hover {
+  background: inherit;
+  color: white !important;
+  font-size: 12px;
+  cursor: pointer;
+}
+/* .VehicleMap_item:hover .VehicleMap_item_i {
+  display: block;
+} */
+.VehicleMap_item:hover .VehicleMap_item_text {
+  display: block;
+}
+/* .VehicleMap_item_i {
+  display: none;
+} */
+.VehicleMap_item_text {
+  display: none;
+}

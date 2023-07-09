@@ -1,0 +1,17 @@
+.Config {
+    display: grid;
+    gap: 16px;
+
+}
+.Config_date {
+    grid-template-columns: auto;
+    gap: 8px;
+    padding: 0; 
+}
+.Config_days {
+    justify-content: space-around;
+    border-bottom: 2px;
+    border-style: solid;
+    border-color: white;
+    padding: 8px;
+}

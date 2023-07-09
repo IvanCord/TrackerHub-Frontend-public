@@ -1,0 +1,83 @@
+.Navbar {
+  width: 600px;
+  border-right: 1px solid #f1f1f1;
+}
+.Navbar_controls {
+  padding: 8px;
+  background-color: #f1f1f1;
+}
+.Navbar_controls_title {
+  /* margin: 8px; */
+}
+.Navbar_controls_title span {
+  font-weight: 600;
+  font-size: 20px;
+}
+.Navbar_controls_top {
+  margin: 8px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.Navbar_controls_top_select {
+  font-weight: 600;
+  cursor: pointer;
+}
+.Navbar_controls_top_button {
+  background-color: white;
+  display: flex;
+  padding: 2px 4px;
+  border-radius: 999px;
+  cursor: pointer;
+  width: 180px;
+  border: 1px solid #c7c7c7;
+}
+.Navbar_controls_top_button_icon {
+  background-color: #0fa958;
+  color: white;
+  font-size: 18px;
+  padding: 1px 4px 0 4px;
+  border-radius: 999px;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Navbar_controls_top_button span {
+  color: #0fa958;
+  font-weight: 600;
+  margin: auto;
+}
+
+.Navbar_Timers {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 16px;
+}
+
+.Navbar_Timers .Timer {
+  background: white;
+  border-radius: 8px;
+  gap: 2px;
+  display: grid;
+  overflow: hidden;
+  font-weight: 600;
+}
+.Navbar_Timers .Timer .Timer_title {
+  background: #1976d2;
+  color: white;
+}
+.Navbar_Timers .Timer .Timer_items {
+  display: flex;
+  gap: 2px;
+}
+.Navbar_Timers .Timer_item {
+  width: 36px;
+}
+.Navbar_Timers .Timer_item .Item_item_key {
+  background: #1976d2;
+  color: white;
+}
+.Navbar_Timers .Timer_item .Timer_item_val {
+  font-size: 20px;
+}

@@ -1,0 +1,47 @@
+.Header {
+    background-color: #055B63;
+    display: grid;
+    grid-template-columns: 30% 60% 10%;
+}
+.Header .Header_logo {
+    display: flex;
+    align-items: center;
+    padding: 0 1em
+}
+.Header .Header_logo .Header_logo_img {
+    height: 48px;
+}
+.Header .Header_navbar {
+    display: flex;
+}
+.Header .Header_navbar .Header_navbar_item {
+    width: 100%;
+    padding: 20px;
+    text-decoration: none;
+}
+.Header .Header_navbar .Header_navbar_item.selected {
+    background-color: #26757C;
+    font-weight: 600;
+}
+.Header .Header_navbar .Header_navbar_item:hover {
+    font-weight: 600;
+    background-color: #26757C;
+}
+.Header .Header_navbar .Header_navbar_item .Header_navbar_item_i {
+    color: #8ACDDE;
+    font-size: 20px;
+    margin-right: 8px;
+}
+.Header .Header_navbar .Header_navbar_item .Header_navbar_item_span {
+    font-size: 20px;
+    color: white;
+}
+.Header .Header_profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Header .Header_profile .Header_profile_icon {
+    color: #8ACDDE;
+    font-size: 48px;
+}

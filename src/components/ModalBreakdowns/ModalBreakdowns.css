@@ -1,0 +1,76 @@
+.ModalBreakdowns .modal-dialog {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.ModalBreakdowns .modal-header {
+  display: flex;
+  color: black;
+}
+
+.ModalBreakdowns_SelectType {
+  display: flex;
+  gap: 10px;
+}
+.mbd-st-button {
+  display: flex;
+  padding: 24px 0px;
+  gap: 16px;
+  background: #f1f1f1;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  width: 100%;
+  justify-content: center;
+  cursor: pointer;
+}
+.mbd-st-button.simple {
+  color: #faca55;
+}
+.mbd-st-button.medio {
+  color: #f5a55f;
+}
+
+.mbd-st-button.grave {
+  color: #de7a4b;
+}
+
+.mbd-st-button.simple.selected {
+  background: #fae7c1;
+}
+.mbd-st-button.medio.selected {
+  background: #f5cfb8;
+}
+.mbd-st-button.grave.selected {
+  background: #edd4d1;
+}
+
+.ModalBreakdowns_SetTime {
+  display: flex;
+  gap: 16px;
+  color: black;
+  font-size: 16px;
+  margin: 1em;
+  font-weight: 600;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.ModalBreakdowns_SetTime input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 999px;
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  border: 1px solid #f6ba32;
+  background: #fbfbfb;
+  color: #f6ba32;
+}
+.ModalBreakdowns_SetTime input:focus-visible {
+  border: none;
+  background: #fbfbfb;
+}

@@ -1,0 +1,112 @@
+.Monitor {
+    background-color: white;
+}
+.Monitor_title {
+    padding: 8px;
+}
+.Monitor_title span {
+    font-weight: 600;
+    font-size: 20px;
+}
+.Monitor_top {
+    
+}
+    .Monitor_top_date {
+        background-color: #1976D2;
+        padding: 8px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+        .Monitor_top_date_days {
+            display: flex;
+            justify-content: center;
+            color: white;
+            font-weight: 600;
+            align-items: center;
+        }
+            .Monitor_top_date_days_i {
+                margin-right: 16px;
+            }
+        .Monitor_top_date_tuner_select {
+            background: #1976D2;
+            color: white;
+            border: none;
+            font-size: 16px;
+            padding: 0;
+            text-align: center;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            cursor: pointer;
+        }
+    .Monitor_top_vehicles {
+        padding: 8px 16px;
+        gap: 8px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .Monitor_top_packets {
+        text-align: left;
+        padding: 8px;
+    }
+        .Monitor_top_packets_states {
+            margin-top: 8px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 4px;
+        }
+
+
+
+
+
+
+
+.Monitor .Vehicle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Monitor .Vehicle_icon {
+    margin: auto 16px;
+}
+.Monitor .Vehicle_icon_i {
+    font-size: 54px;
+}
+
+.Monitor .Vehicle_data {
+    font-weight: 600;
+    font-size: 18px;
+}
+.Monitor .Vehicle_data_item {
+    text-align: left;
+    display: grid;
+    grid-template-columns: 136px 32px;
+}
+.Monitor .Vehicle_data_item_val {
+    text-align: right;
+
+}
+.Monitor .Vehicle_data .veh_d2 {
+    color: #1976D2 !important;
+}
+.Monitor .Vehicle_data .veh_d3 {
+    color: #DB5252 !important;
+}
+
+
+.Monitor .PackState {
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-items: center;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 2px;
+}
+.Monitor .PackState_top i {
+    margin-right: 8px;
+}
+.Monitor .PackState_bottom {
+    font-size: 22px;
+}

@@ -1,0 +1,31 @@
+.ModalSimulEnding .modal-dialog {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.ModalSimulEnding .modal-header {
+    display: flex;
+    text-transform: uppercase;
+    color: white;
+    background: green;
+    font-weight: 700;
+}
+.ModalSimulEnding.success .modal-header {
+    background: #0FA958;
+}
+.ModalSimulEnding.collapsed .modal-header {
+    background: #DB5252;
+}
+.ModalSimulEnding .modal-content {
+    height: fit-content;
+}
+.ModalSimulEnding_timer {
+    margin-top: 24px;
+    font-size: 24px;
+}
+.ModalSimulEnding_button {
+    color: white;
+}
+.ModalSimulEnding_button:hover {
+    color: white;
+}

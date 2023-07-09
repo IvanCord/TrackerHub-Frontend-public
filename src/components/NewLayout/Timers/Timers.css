@@ -1,0 +1,8 @@
+.Timers_container {
+  display: grid;
+  gap: 24px;
+  grid-template-rows: 1fr;
+}
+.Timer_new {
+  width: 48px !important;
+}

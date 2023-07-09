@@ -1,0 +1,48 @@
+.DailyControls {
+    display: flex;
+    justify-content: center;
+}
+.DailyControls_left {
+    width: fit-content;
+}
+.DailyControls_right {
+    width: fit-content;
+    display: grid;
+    margin-left: 16px;
+    align-items: center;
+}
+.DailyControls_title span {
+    font-weight: 600;
+    font-size: 18px;
+}
+.DailyControls_box {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.InputLabel {
+    width: 200px;
+    padding: 0 8px;
+}
+.InputLabel_label {
+    margin: 0;
+}
+.InputLabel_control {
+    padding: 2px 8px;
+    color: #505050;
+    border-radius: 50px
+}
+
+@media screen and (max-width: 1540px) {
+    .DailyControls {
+        display: grid;
+    }
+    .DailyControls_right {
+        width: fit-content;
+        display: flex;
+        margin-left: 0px;
+        margin: 16px auto;
+        gap: 16px;
+    }
+  }
