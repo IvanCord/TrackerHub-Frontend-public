@@ -1,7 +1,7 @@
 TrackerHub Project
 -----------------------
 
-TrackerHub is a robust and efficient Package Delivery System built using React and TypeScript. It incorporates a real-time vehicle tracking feature, leveraging an optimized navigation system powered by the A* algorithm.
+TrackerHub is a robust and efficient Package Delivery System built using React and TypeScript. It incorporates a real-time vehicle tracking feature, leveraging an optimized navigation system powered by the A* algorithm that was designed in the backend with Springboot.
 
 This repository contains the frontend implementation of the system, which encompasses the necessary object types for consuming and displaying the shared data from the backend. It establishes a clear structure for how the data is consumed and rendered using HTML and CSS styles. The use of TypeScript ensures type safety and enhances code robustness, allowing for better error detection and prevention during development.
 
