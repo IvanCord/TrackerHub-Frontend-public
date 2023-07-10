@@ -8,3 +8,12 @@ This repository contains the frontend implementation of the system, which encomp
 By utilizing React, TrackerHub offers a responsive and interactive user interface, providing a seamless experience for users interacting with the package delivery system. The A* algorithm efficiently calculates the most optimal routes for vehicles, ensuring efficient delivery routes and minimizing delivery time.
 
 To run it, clone the project, do "npm install" and execute "npm run dev".
+
+This project was developed thanks to:
+
+Iván Córdova -> Frontend Engineer
+Oscar Navarro -> Frontend Engineer
+Carlos Toro -> Backend Engineer
+Jherson Zuñiga -> Documentator
+
+(*) All the commits are in the organization-private repository.
