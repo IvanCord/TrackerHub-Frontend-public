@@ -9,6 +9,8 @@ By utilizing React, TrackerHub offers a responsive and interactive user interfac
 
 To run it, clone the project, do "npm install" and execute "npm run dev". &nbsp;
 
+![What is this](trackerhub.png)
+
 This project was developed thanks to: &nbsp;
 
 Iván Córdova -> Frontend Engineer &nbsp;
