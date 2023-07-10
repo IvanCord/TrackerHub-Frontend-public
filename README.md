@@ -16,6 +16,6 @@ This project was developed thanks to: &nbsp;
 Iván Córdova -> Frontend Engineer &nbsp;
 Oscar Navarro -> Frontend Engineer &nbsp;
 Carlos Toro -> Backend Engineer &nbsp;
-Jherson Zuñiga -> Documentator &nbsp;
+Jherson Zuñiga -> Documenter &nbsp;
 
 (*) All the commits are in the organization-private repository.&nbsp;
